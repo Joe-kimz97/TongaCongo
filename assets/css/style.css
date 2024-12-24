@@ -2399,7 +2399,7 @@ hr {
   width: 60px;
   border-radius: 50%;
   cursor: pointer;
-  background: #ff656a;
+  background: #fe0000;
   -webkit-transition: 0.4s;
   -o-transition: 0.4s;
   transition: 0.4s;
@@ -2448,7 +2448,7 @@ hr {
   visibility: visible;
 }
 .slider-active button:hover {
-  background: #002d5b;
+  background: #9C0404;
 }
 .slider-active .secondary-img {
   position: absolute;
