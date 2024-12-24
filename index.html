@@ -6,10 +6,8 @@
         <title>Tonga Congo </title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
         <link rel="manifest" href="site.webmanifest">
 		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
-
 		<!-- CSS here -->
             <link rel="stylesheet" href="assets/css/bootstrap.min.css">
             <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
@@ -25,9 +23,7 @@
             <link rel="stylesheet" href="assets/css/style2.css">
             <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
    </head>
-
    <body>
-      
     <!-- Preloader Start -->
     <div id="preloader-active">
         <div class="preloader d-flex align-items-center justify-content-center">
@@ -40,7 +36,6 @@
         </div>
     </div>
     <!-- Preloader Start -->
-
     <header>
         <!-- Header Start -->
        <div class="header-area">
@@ -49,7 +44,6 @@
                    <div class="container-fluid">
                        <div class="col-xl-12">
                             <div class="row d-flex flex-column flex-md-row justify-content-between align-items-center">
-
                                 <div class="header-info-left">
                                     <ul>     
                                         <li><i class="fas fa-map-marker-alt"></i>Ngaliema, République Démocratique du Congo</li>
@@ -133,8 +127,8 @@
                                         innovantes sur mesure
                                     </h1>
                                     <!-- Hero-btn -->
-                                    <div class="hero__btn" data-animation="fadeInLeft" data-delay=".1s" >
-                                        <a href="" class="btn hero-btn" id="btnDown" style="background-color: red;">Télécharger notre profil</a>
+                                    <div class="hero__btn" data-animation="fadeInLeft" data-delay=".1s"  >
+                                        <a  href="assets/doc/Profil_TongaCongo.pdf" class="btn hero-btn" id="btnDown" download  style="background-color: red;">Télécharger notre profil</a>
                                     </div>
                                 </div>
                             </div>
@@ -693,6 +687,21 @@
    </footer>
    
 	<!-- JS here -->
+
+
+    <script>
+
+const btn = document.getElementById("btnDown");
+  
+  // Attachez l'événement click à cet élément
+  btn.addEventListener("click", function() {
+
+    const filePath = 'chemin/vers/votre/fichier.pdf'; // Remplacez ceci par le chemin réel du fichier PDF
+    console.log(btn);  // Affichera l'élément dans la console
+  });
+      
+
+    </script>
 	
 		<!-- All JS Custom Plugins Link Here here -->
         <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
@@ -728,6 +737,6 @@
 		<!-- Jquery Plugins, main Jquery -->	
         <script src="./assets/js/plugins.js"></script>
         <script src="./assets/js/main.js"></script>
-        <script src="assets/js/doc.js"></script>
+        
     </body>
 </html>
