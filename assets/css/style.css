@@ -512,7 +512,7 @@ hr {
   color: #888;
 }
 #scrollUp {
-  background: #ff656a;
+  background: #fe0000;
   height: 50px;
   width: 50px;
   right: 31px;
@@ -5753,4 +5753,19 @@ del {
   .email {
     margin-left: 59px;
   }
+
+  .maps{
+    width: 348px !important;
+    height: 200px !important;
+  
+  }
+
+
+}
+
+
+.maps{
+  width: 1150px;
+  height: 400px;
+
 }
