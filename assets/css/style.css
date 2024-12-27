@@ -2088,7 +2088,7 @@ hr {
 @media (max-width: 767px) {
   .header-area .header-top {
     padding: 13px 20px;
-    border: 2px solid red;
+  
   }
 }
 .header-area .header-bottom {
@@ -5751,6 +5751,8 @@ del {
     font-size: 12px;
     margin-right: 0;
   }
+
+
   .email {
     margin-left: 59px;
   }
@@ -5762,6 +5764,13 @@ del {
   }
 
 
+}
+
+@media screen and (min-width: 360px) and (max-width: 360px) {
+  /* Styles pour un écran de 360px de large */
+  .address {
+    margin-left: -17px;
+  }
 }
 
 
