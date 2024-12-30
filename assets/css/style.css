@@ -417,6 +417,45 @@ hr {
   color: #fff !important;
   z-index: -1;
 }
+
+
+/* 
+.custom-whattsapp{
+  color:#25d366 ;
+  font-size: 30px;
+
+} */
+
+/* Afficher l'icône WhatsApp sur mobile */
+.header-right-btn .whatsapp-icon {
+  position: relative;
+  font-size: 17px; /* Taille de l'icône */
+  color: #25D366; /* Couleur verte de WhatsApp */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  margin: 0 0 23px 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width:768px){
+  .header-right-btn{
+    position: relative;
+    height: 2px;
+  }
+
+  .header-right-btn .whatsapp-icon{
+    position: absolute;
+    bottom: -17px;
+    right: -17px;
+
+   
+  }
+}
+
 .header-btn {
   text-transform: uppercase;
 }
@@ -2117,7 +2156,10 @@ hr {
 @media (max-width: 767px) {
   .header-area .header-bottom {
     padding: 22px 20px;
-  }
+    height: 80px;
+    padding-top: 44px;
+}
+  
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .header-area {
