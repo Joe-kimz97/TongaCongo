@@ -5813,6 +5813,18 @@ del {
   .address {
     margin-left: -17px;
   }
+
+}
+
+@media  (max-width: 768px)  {
+  /* Styles pour un écran de 360px de large */
+  .imgLogo {
+    position:absolute;
+     top: -48px;
+  
+      height:100px;
+  }
+  
 }
 
 .maps{
